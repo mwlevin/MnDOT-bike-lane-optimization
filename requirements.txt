@@ -1,0 +1,3 @@
+networkx>=2.8
+matplotlib>=3.5
+gurobipy>=10.0
