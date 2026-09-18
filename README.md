@@ -2,6 +2,8 @@
 
 This folder contains the software and input data used to run the bicycle-lane
 network design experiments for the Minneapolis CBD network.
+The equity-focused extension of this software is provided separately in the
+`equalitymetric extension/` folder.
 
 ## Folder Contents
 
