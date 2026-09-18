@@ -1,0 +1,36 @@
+{
+  "experiment": "Objective I-E refine protected uncovered-exposure burden with 80/80 service",
+  "coverage_target_share": 0.8,
+  "service_uncovered_cap_t": 0.2,
+  "budget_rule": "B = gamma * C_80/80",
+  "budget_gamma": 1.5,
+  "small_reference_C_80_80_from_paper": 5169.03,
+  "large_reference_C_80_80_from_paper": 19469.69,
+  "small_network": {
+    "algorithm": "exact_gurobi",
+    "budget": 7753.545,
+    "status_name": "OPTIMAL",
+    "protected_uncovered_exposure_burden": 0.07962003178383291,
+    "unprotected_uncovered_exposure_burden": 0.09115774777908969,
+    "construction_cost": 7743.396082214589,
+    "covered_demand_share": 0.9403430275913497,
+    "coverage_requirement_satisfied": true,
+    "service_80_80_satisfied": true,
+    "equity_file": "objective_I_E_refine/data/cropped_subgraph/od_equity_shares_synthetic.csv",
+    "json": "combined_model_runs/20260726_204835/objective_I_E_refine/synthetic_random_p/small_exact_gurobi/small_objective_I_E_refine_exact.json"
+  },
+  "large_network": {
+    "algorithm": "alns_heuristic",
+    "budget": 29204.534999999996,
+    "status_name": "FEASIBLE_HEURISTIC",
+    "protected_uncovered_exposure_burden": 0.11514275086591054,
+    "unprotected_uncovered_exposure_burden": 0.11809609831852644,
+    "construction_cost": 29186.39298081671,
+    "covered_demand_share": 0.9320857863751051,
+    "coverage_requirement_satisfied": true,
+    "service_80_80_satisfied": true,
+    "coverage_shortfall_demand": 0.0,
+    "equity_file": "objective_I_E_refine/data/full_network/od_equity_shares_synthetic.csv",
+    "json": "combined_model_runs/20260726_204835/objective_I_E_refine/synthetic_random_p/large_alns/large_objective_I_E_refine_alns.json"
+  }
+}

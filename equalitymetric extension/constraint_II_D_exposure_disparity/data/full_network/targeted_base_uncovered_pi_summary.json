@@ -1,0 +1,22 @@
+{
+  "network_name": "full_network",
+  "source_equity_file": "constraint_II_D_exposure_disparity/data/full_network/od_equity_shares_synthetic.csv",
+  "base_solution_file": "baseline_inputs/large_task3_baseline_80_80.json",
+  "output_equity_file": "constraint_II_D_exposure_disparity/data/full_network/od_equity_shares_targeted_base_uncovered.csv",
+  "pi_low_for_base_covered": 0.15,
+  "pi_high_for_base_uncovered": 0.85,
+  "positive_od_pairs": 711,
+  "base_covered_od_count": 405,
+  "base_uncovered_od_count": 306,
+  "total_demand": 4756.0,
+  "base_covered_demand": 3805.0,
+  "base_uncovered_demand": 951.0,
+  "base_covered_demand_share": 0.8000420521446594,
+  "base_uncovered_demand_share": 0.19995794785534063,
+  "total_protected_demand": 1379.0999999999985,
+  "protected_demand_share": 0.2899705634987381,
+  "protected_demand_on_base_covered_ods": 570.7499999999999,
+  "protected_demand_on_base_uncovered_ods": 808.3500000000017,
+  "protected_demand_share_on_base_uncovered_ods": 0.5861431368283682,
+  "note": "This pi_w is intentionally targeted: OD pairs not covered by the original base 80/80 solution receive high pi_w, and OD pairs covered by the original solution receive low pi_w."
+}

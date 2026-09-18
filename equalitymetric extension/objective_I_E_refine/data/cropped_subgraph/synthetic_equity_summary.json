@@ -1,0 +1,26 @@
+{
+  "network_name": "cropped_subgraph",
+  "network_dir": "objective_I_E_refine/data/cropped_subgraph",
+  "generation_seed": 2026072402,
+  "generation_note": "Synthetic protected-population shares for model development only; replace with real demographic data for substantive conclusions.",
+  "zone_count": 14,
+  "positive_od_pairs": 177,
+  "total_demand": 1341.0,
+  "total_protected_demand": 522.25161661,
+  "total_unprotected_demand": 818.74838339,
+  "protected_demand_share": 0.38944938,
+  "zone_protected_share_min": 0.06418747,
+  "zone_protected_share_mean": 0.37674835,
+  "zone_protected_share_max": 0.66666011,
+  "od_pi_w_min": 0.08266467,
+  "od_pi_w_mean": 0.37679751,
+  "od_pi_w_max": 0.62293545,
+  "files": {
+    "zone_protected_shares": "objective_I_E_refine/data/cropped_subgraph/zone_protected_shares_synthetic.csv",
+    "od_equity_shares": "objective_I_E_refine/data/cropped_subgraph/od_equity_shares_synthetic.csv"
+  },
+  "outputs": {
+    "zone_protected_shares": "objective_I_E_refine/data/cropped_subgraph/zone_protected_shares_synthetic.csv",
+    "od_equity_shares": "objective_I_E_refine/data/cropped_subgraph/od_equity_shares_synthetic.csv"
+  }
+}

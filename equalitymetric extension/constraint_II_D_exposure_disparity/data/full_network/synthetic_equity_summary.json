@@ -1,0 +1,26 @@
+{
+  "network_name": "full_network",
+  "network_dir": "constraint_II_D_exposure_disparity/data/full_network",
+  "generation_seed": 2026072401,
+  "generation_note": "Synthetic protected-population shares for model development only; replace with real demographic data for substantive conclusions.",
+  "zone_count": 30,
+  "positive_od_pairs": 711,
+  "total_demand": 4756.0,
+  "total_protected_demand": 1613.90562236,
+  "total_unprotected_demand": 3142.09437764,
+  "protected_demand_share": 0.33934096,
+  "zone_protected_share_min": 0.06710322,
+  "zone_protected_share_mean": 0.33987926,
+  "zone_protected_share_max": 0.85454955,
+  "od_pi_w_min": 0.0316424,
+  "od_pi_w_mean": 0.3366163,
+  "od_pi_w_max": 0.81479195,
+  "files": {
+    "zone_protected_shares": "constraint_II_D_exposure_disparity/data/full_network/zone_protected_shares_synthetic.csv",
+    "od_equity_shares": "constraint_II_D_exposure_disparity/data/full_network/od_equity_shares_synthetic.csv"
+  },
+  "outputs": {
+    "zone_protected_shares": "constraint_II_D_exposure_disparity/data/full_network/zone_protected_shares_synthetic.csv",
+    "od_equity_shares": "constraint_II_D_exposure_disparity/data/full_network/od_equity_shares_synthetic.csv"
+  }
+}

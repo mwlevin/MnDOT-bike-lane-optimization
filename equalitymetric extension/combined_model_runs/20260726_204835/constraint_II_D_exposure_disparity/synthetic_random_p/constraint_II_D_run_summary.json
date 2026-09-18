@@ -1,0 +1,32 @@
+{
+  "experiment": "Constraint II-D uncovered-exposure disparity with 80/80 service",
+  "coverage_target_share": 0.8,
+  "service_uncovered_cap_t": 0.2,
+  "eta_exposure": 0.05,
+  "small_network": {
+    "algorithm": "exact_gurobi",
+    "status_name": "TIME_LIMIT",
+    "construction_cost": 5169.033897138105,
+    "covered_demand_share": 0.8016405667412378,
+    "protected_uncovered_exposure_burden": 0.30786543992941484,
+    "unprotected_uncovered_exposure_burden": 0.32707576888044204,
+    "exposure_burden_gap_Ep_minus_Eu": -0.0192103289510272,
+    "coverage_requirement_satisfied": true,
+    "exposure_disparity_satisfied": true,
+    "equity_file": "constraint_II_D_exposure_disparity/data/cropped_subgraph/od_equity_shares_synthetic.csv",
+    "json": "combined_model_runs/20260726_204835/constraint_II_D_exposure_disparity/synthetic_random_p/small_exact_gurobi/small_constraint_II_D_exact.json"
+  },
+  "large_network": {
+    "algorithm": "constraint_repair_alns",
+    "status_name": "FEASIBLE_HEURISTIC",
+    "construction_cost": 18912.652019704918,
+    "covered_demand_share": 0.8000420521446594,
+    "protected_uncovered_exposure_burden": 0.289052932817328,
+    "unprotected_uncovered_exposure_burden": 0.28142578843058086,
+    "exposure_burden_gap_Ep_minus_Eu": 0.0076271443867471644,
+    "coverage_requirement_satisfied": true,
+    "exposure_disparity_satisfied": true,
+    "equity_file": "constraint_II_D_exposure_disparity/data/full_network/od_equity_shares_synthetic.csv",
+    "json": "combined_model_runs/20260726_204835/constraint_II_D_exposure_disparity/synthetic_random_p/large_alns/large_constraint_II_D_alns.json"
+  }
+}
