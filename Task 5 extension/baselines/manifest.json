@@ -1,0 +1,39 @@
+{
+  "description": "Historical Task 3 layouts and fixed-layout J evaluations; construction layouts are not reoptimized.",
+  "networks": {
+    "small": {
+      "network_fingerprint": "1897afd48713804e68b9dabeaa6e317cc6c1a2175a68e2b429d9c18321393f08",
+      "historical_problem_fingerprint": "74da9c597a5be40ea8333e4486b222a5e8f14bfdff9a075b2c039807cc9528f4",
+      "reference_cost": 5169.033897138104,
+      "epsilon": 0.2,
+      "t": 0.2,
+      "files": {
+        "reference": {
+          "path": "small/reference_cost.json",
+          "sha256": "7bfb044c9d8a47c99c88080f101733f63e12d94ee4038aa6879311de44a535c7"
+        },
+        "evaluation": {
+          "path": "small/fixed_network_j2.json",
+          "sha256": "2de06294aeacff46a5a7ec2d4f19a5e08c2faf946cac132e74256be5682b53eb"
+        }
+      }
+    },
+    "large": {
+      "network_fingerprint": "9559d42a6b6255af1174ef6e2d4f5b4de64742dd1c2f800fd77a23d250763605",
+      "historical_problem_fingerprint": "9955e6bb6190b98fdc04edef8091862f66512d9500ca7365a04bf76b52c55b7c",
+      "reference_cost": 19469.687353669575,
+      "epsilon": 0.2,
+      "t": 0.2,
+      "files": {
+        "reference": {
+          "path": "large/reference_cost.json",
+          "sha256": "cd86c8d68fa35dfeba16ff0e9985c69a2374be8b6f36d35f0320acfce9b7c1d3"
+        },
+        "evaluation": {
+          "path": "large/fixed_network_j2.json",
+          "sha256": "dd71f8073cacc76365792fff7131dab792e086b6ebe2b7e458f6797a469089bf"
+        }
+      }
+    }
+  }
+}
